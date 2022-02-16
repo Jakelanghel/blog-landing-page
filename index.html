@@ -31,39 +31,66 @@
         <nav class="nav">
             <div class="nav-bar">
                 <img src="./images/logo.svg" alt="blogr logo" class="logo" />
-                <img
-                    src="./images/icon-hamburger.svg"
-                    alt="navigation menu drop down"
-                    class="hamburger"
-                />
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
             </div>
 
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"
-                        >product
-                        <img
+                    <button class="nav-btn">
+                        product<img
                             src="./images/icon-arrow-dark.svg"
                             alt="show product menu"
                             class="arrow-img"
-                    /></a>
+                        />
+                    </button>
+
+                    <div
+                        class="container-drop-down"
+                        class="connect-drop-down"
+                        id="product"
+                    >
+                        <a href="#" class="drop-down-link">contact</a>
+                        <a href="#" class="drop-down-link">newsletter</a>
+                        <a href="#" class="drop-down-link">linkedin</a>
+                    </div>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#" class="nav-link"
-                        >company<img
+                    <button class="nav-btn">
+                        company<img
                             src="./images/icon-arrow-dark.svg"
                             alt="show product menu"
                             class="arrow-img"
-                    /></a>
+                        />
+                    </button>
+
+                    <div
+                        class="container-drop-down"
+                        class="connect-drop-down"
+                        id="company"
+                    >
+                        <a href="#" class="drop-down-link">contact</a>
+                        <a href="#" class="drop-down-link">newsletter</a>
+                        <a href="#" class="drop-down-link">linkedin</a>
+                    </div>
                 </li>
-                <li class="nav-item connect">
-                    <a href="#" class="nav-link"
-                        >connect<img
+
+                <li class="nav-item">
+                    <button class="nav-btn">
+                        connect<img
                             src="./images/icon-arrow-dark.svg"
                             alt="show product menu"
                             class="arrow-img"
-                    /></a>
-                    <div class="container-drop-down">
+                        />
+                    </button>
+
+                    <div
+                        class="container-drop-down"
+                        class="connect-drop-down"
+                        id="connect"
+                    >
                         <a href="#" class="drop-down-link">contact</a>
                         <a href="#" class="drop-down-link">newsletter</a>
                         <a href="#" class="drop-down-link">linkedin</a>
@@ -71,11 +98,11 @@
                 </li>
 
                 <li class="nav-item login">
-                    <a href="#" class="nav-link">login</a>
+                    <button class="nav-btn login-btn">login</button>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link sign-up">sign up</a>
+                    <button class="nav-btn sign-up-btn">sign up</button>
                 </li>
             </ul>
         </nav>
@@ -228,5 +255,6 @@
                 >. Coded by <a href="#">Jake Langhel</a>.
             </div>
         </footer>
+        <script src="./index.js"></script>
     </body>
 </html>
