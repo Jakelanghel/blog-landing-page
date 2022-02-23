@@ -26,6 +26,18 @@
         align-self: center;
     }
 
+    .container-drop-down {
+        position: absolute;
+        text-align: left;
+        padding: 1.5rem;
+        background: var(--white);
+        opacity: 1;
+    }
+
+    .drop-down-link {
+        width: 150px;
+    }
+
     .logo {
         padding-right: 1rem;
         padding-bottom: 0.5rem;
