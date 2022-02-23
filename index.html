@@ -39,11 +39,11 @@
             <ul class="nav-list">
                 <div class="container-nav-list nav-left">
                     <li class="nav-item">
-                        <button class="nav-btn">
+                        <button class="nav-btn drop-down-btn">
                             product<img
                                 src="./images/icon-arrow-dark.svg"
                                 alt="show product menu"
-                                class="arrow-img"
+                                class="arrow-img product-arrow"
                             />
                         </button>
 
@@ -59,11 +59,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <button class="nav-btn">
+                        <button class="nav-btn drop-down-btn">
                             company<img
                                 src="./images/icon-arrow-dark.svg"
                                 alt="show product menu"
-                                class="arrow-img"
+                                class="arrow-img company-arrow"
                             />
                         </button>
 
@@ -79,11 +79,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <button class="nav-btn">
+                        <button class="nav-btn drop-down-btn">
                             connect<img
                                 src="./images/icon-arrow-dark.svg"
                                 alt="show product menu"
-                                class="arrow-img"
+                                class="arrow-img connect-arrow"
                             />
                         </button>
 
@@ -142,7 +142,7 @@
                     add functionality or change the looks of a blog.
                 </p>
 
-                <h2 class="title main-title">Robust content management</h2>
+                <h2 class="title">Robust content management</h2>
                 <p class="copy main-copy">
                     Flexible content management enables users to easily move
                     through posts. Increase the usability of your blog by adding
@@ -157,10 +157,12 @@
                     alt="sell phones"
                     class="img-absolute img-cellphone"
                 />
-                <h2 class="title tech-title">
+
+                <h2 class="title section-2-title">
                     State of the Art infrastructure
                 </h2>
-                <p class="copy tech-copy">
+
+                <p class="copy section-2-copy">
                     With reliability and speed in mind, worldwide data centers
                     provide the backbone for ultra-fast connectivity. This
                     ensures your site will load instantly, no matter where your
@@ -168,13 +170,13 @@
                 </p>
             </section>
 
-            <section class="container-section">
+            <section class="container-section section-3">
                 <img
                     src="./images/illustration-laptop-mobile.svg"
                     alt="editor image"
-                    class="editor-img main-img"
+                    class="main-img"
                 />
-                <h2 class="title main-title">Free, open, simple</h2>
+                <h2 class="title">Free, open, simple</h2>
                 <p class="copy main-copy">
                     Blogr is a free and open source application backed by a
                     large community of helpful developers. It supports features
@@ -184,7 +186,7 @@
                     and is relatively easy to learn.
                 </p>
 
-                <h2 class="title main-title">Powerful tooling</h2>
+                <h2 class="title">Powerful tooling</h2>
                 <p class="copy main-copy">
                     Batteries included. We built a simple and straightforward
                     CLI tool that makes customization and deployment a breeze,
@@ -194,68 +196,77 @@
         </main>
 
         <footer class="footer">
-            <img
-                src="./images/logo.svg"
-                alt="blogr logo"
-                class="logo footer-logo"
-            />
-            <h3 class="footer-title">product</h3>
-            <ul class="footer-list">
-                <li class="footer-li">
-                    <a href="#" class="footer-link">overview</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">pricing</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">marketplace</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">features</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">integrations</a>
-                </li>
-            </ul>
+            <div class="footer-container">
+                <img
+                    src="./images/logo.svg"
+                    alt="blogr logo"
+                    class="logo footer-logo"
+                />
+            </div>
 
-            <h3 class="footer-title">company</h3>
-            <ul class="footer-list">
-                <li class="footer-li">
-                    <a href="#" class="footer-link">about</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">team</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">blog</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">careers</a>
-                </li>
-            </ul>
+            <div class="footer-container">
+                <h3 class="footer-title">product</h3>
+                <ul class="footer-list">
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">overview</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">pricing</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">marketplace</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">features</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">integrations</a>
+                    </li>
+                </ul>
+            </div>
 
-            <h3 class="footer-title">connect</h3>
-            <ul class="footer-list">
-                <li class="footer-li">
-                    <a href="#" class="footer-link">contact</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">newsletter</a>
-                </li>
-                <li class="footer-li">
-                    <a href="#" class="footer-link">linkedin</a>
-                </li>
-            </ul>
+            <div class="footer-container">
+                <h3 class="footer-title">company</h3>
+                <ul class="footer-list">
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">about</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">team</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">blog</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">careers</a>
+                    </li>
+                </ul>
+            </div>
 
-            <div class="attribution">
-                Challenge by
-                <a
-                    href="https://www.frontendmentor.io?ref=challenge"
-                    target="_blank"
-                    >Frontend Mentor</a
-                >. Coded by <a href="#">Jake Langhel</a>.
+            <div class="footer-container">
+                <h3 class="footer-title">connect</h3>
+                <ul class="footer-list">
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">contact</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">newsletter</a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#" class="footer-link">linkedin</a>
+                    </li>
+                </ul>
             </div>
         </footer>
+
+        <div class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Jake Langhel</a>.
+        </div>
         <script src="./index.js"></script>
     </body>
 </html>

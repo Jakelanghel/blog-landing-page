@@ -52,10 +52,12 @@ main {
 }
 
 .title {
-    margin: 0 auto;
+    font-size: 2.5rem;
     font-weight: 700;
     font-family: "Overpass", sans-serif;
     padding: 0 0.5rem;
+    font-size: 1.75rem;
+    color: var(--dark-blue);
 }
 
 .copy {
@@ -277,10 +279,11 @@ main {
 .cta-title {
     max-width: 325px;
     font-size: 2.15rem;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 3rem;
     margin: 0 auto;
     margin-bottom: 1rem;
+    color: var(--white);
 }
 
 .cta-subtitle {
@@ -307,11 +310,6 @@ main {
     margin-top: 5rem;
 }
 
-.main-title {
-    font-size: 1.75rem;
-    color: var(--dark-blue);
-}
-
 .main-copy {
     color: var(--darker-grayish-blue);
 }
@@ -335,7 +333,7 @@ main {
     color: var(--white);
     padding-top: 14.5rem;
     padding-bottom: 3rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     position: relative;
@@ -352,7 +350,8 @@ main {
     width: 350px;
 }
 
-.tech-title {
+.section-2-title {
+    color: var(--white);
     font-size: 2.5rem;
 }
 
@@ -397,10 +396,13 @@ main {
 }
 
 .attribution {
-    margin-top: 4rem;
-    font-size: 11px;
+    background: var(--black-blue);
+    color: var(--white);
+    font-size: 12px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--intro-gradient-lighter-red);
+    letter-spacing: 1px;
 }
