@@ -27,7 +27,6 @@ Users should be able to:
 
 ### Links
 
--   Github URL: [Github](https://github.com/Jakelanghel/blog-landing-page)
 -   Solution URL: [Frontend Mentor](https://github.com/Jakelanghel/blog-landing-page/deployments/activity_log?environment=github-pages)
 -   Live Site URL: [Github Pages](https://jakelanghel.github.io/blog-landing-page/)
 
