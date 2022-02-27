@@ -52,6 +52,8 @@ main {
 }
 
 .title {
+    max-width: 300px;
+    margin: 0 auto;
     font-size: 2.5rem;
     font-weight: 700;
     font-family: "Overpass", sans-serif;
@@ -61,6 +63,8 @@ main {
 }
 
 .copy {
+    max-width: 90%;
+    margin: 0 auto;
     font-size: 1.15rem;
     line-height: 1.75rem;
     padding: 1.25rem;
@@ -69,63 +73,6 @@ main {
 
 .container-section {
     padding: 3rem 0;
-}
-
-/* ================== */
-/* BUTTONS / LINKS  = */
-/* ================== */
-
-.btn {
-    font-size: 1.1rem;
-    font-weight: 700;
-    font-family: "Ubuntu", sans-serif;
-    padding: 1rem 1.5rem;
-    border-radius: 25px;
-}
-
-.btn-start {
-    background: var(--white);
-    color: var(--light-red);
-    border: none;
-}
-
-.btn-learn {
-    background: transparent;
-    color: var(--white);
-    border: solid 1px var(--white);
-}
-
-.btn-learn:hover {
-    background: var(--white);
-    color: var(--intro-gradient-lighter-red);
-}
-
-.btn-start:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: var(--white);
-}
-
-.login-btn {
-    margin-top: 1.5rem;
-}
-
-.sign-up-btn {
-    width: 200px;
-    margin: 0 auto;
-    background: linear-gradient(
-        99deg,
-        rgba(255, 143, 112, 1) 17%,
-        rgba(255, 65, 85, 1) 95%
-    );
-    color: var(--white);
-    border-radius: 50px;
-    padding: 1.25rem 3.5rem;
-    border: none;
-}
-
-.sign-up-btn:hover {
-    background: rgba(255, 255, 255, 0.3);
-    color: var(--white);
 }
 
 /* ============== */
@@ -167,7 +114,7 @@ main {
     width: 40px;
     height: 4px;
     border-radius: 1em;
-    transition: transform 250ms ease-in-out;
+    transition: transform 100ms ease-in-out;
 }
 
 .hamburger::before,
@@ -227,7 +174,7 @@ main {
 }
 
 .nav-btn {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     font-weight: 500;
     text-align: center;
     text-transform: capitalize;
@@ -276,6 +223,65 @@ main {
 
 .drop-down-link:hover {
     font-weight: 900;
+}
+
+/* ================== */
+/* BUTTONS / LINKS  = */
+/* ================== */
+
+.btn {
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+}
+
+.btn-start {
+    background: var(--white);
+    color: var(--light-red);
+    border: none;
+}
+
+.btn-learn {
+    background: transparent;
+    color: var(--white);
+    border: solid 1px var(--white);
+}
+
+.btn-learn:hover {
+    background: var(--white);
+    color: var(--intro-gradient-lighter-red);
+}
+
+.btn-start:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--white);
+}
+
+.login-btn {
+    margin-top: 1.5rem;
+}
+
+.sign-up-btn {
+    width: 200px;
+    margin: 0 auto;
+    background: linear-gradient(
+        99deg,
+        rgba(255, 143, 112, 1) 17%,
+        rgba(255, 65, 85, 1) 95%
+    );
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--white);
+    border-radius: 50px;
+    padding: 1.25rem 3.5rem;
+    border: none;
+}
+
+.sign-up-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: var(--white);
 }
 
 /* ============== */
@@ -335,11 +341,14 @@ main {
 
 .main-img {
     width: 100%;
-    margin: 0 auto;
-    margin: 3rem 0;
+    margin: 3rem auto;
 }
 
-/* TECH ========= */
+.design-title {
+    max-width: 400px;
+}
+
+/* SECTION-2 ==== */
 /* ============== */
 
 .section-2 {
@@ -366,7 +375,7 @@ main {
 }
 
 .img-cellphone {
-    width: 350px;
+    width: 400px;
 }
 
 .section-2-title {
