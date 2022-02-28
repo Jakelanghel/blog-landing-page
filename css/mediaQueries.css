@@ -259,17 +259,21 @@
 }
 
 @media (min-width: 1400px) {
-    * {
-        font-size: 1.25rem;
-    }
-
     .copy {
         max-width: 550px;
     }
 
     .section-3,
     .section-1 {
-        padding: 8rem;
+        padding: 15rem 0;
+    }
+
+    .section-1 {
+        background-position: 200% 150px;
+    }
+
+    .section-1-left {
+        padding-left: 8rem;
     }
 
     .section-2 {
@@ -278,8 +282,16 @@
         padding-right: 10rem;
     }
 
+    .section-3 {
+        background-position: -300px center;
+    }
+
     .section-2-title {
         width: 550px;
+    }
+
+    .section-3-right {
+        padding-right: 8rem;
     }
 
     .img-absolute {
