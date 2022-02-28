@@ -28,7 +28,7 @@
 
     .nav-bar {
         justify-content: flex-start;
-        padding: 4rem 3rem;
+        padding: 3rem 7rem;
     }
 
     .arrow-img {
@@ -96,7 +96,7 @@
     }
 
     .sign-up-btn {
-        width: 125px;
+        width: 150px;
         background: var(--white);
         color: var(--intro-gradient-light-red);
         display: flex;

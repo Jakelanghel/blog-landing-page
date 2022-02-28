@@ -85,7 +85,7 @@ main {
     justify-content: space-between;
     align-items: flex-end;
     position: fixed;
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     z-index: 0;
 }
 
@@ -237,7 +237,7 @@ main {
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     padding: 1rem 1.5rem;
-    border-radius: 25px;
+    border-radius: 100px;
 }
 
 .btn-start {
@@ -277,7 +277,7 @@ main {
     font-size: 1.3rem;
     font-weight: 900;
     color: var(--white);
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 1.25rem 3.5rem;
     border: none;
 }
